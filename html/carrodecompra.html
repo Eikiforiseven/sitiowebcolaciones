@@ -1,0 +1,67 @@
+<html>
+
+    <head>
+
+        <title>Colaciones Provi</title>
+
+        <meta charset="UTF-8">
+
+        <script src="js/code.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="css/estilos.css">
+
+    </head>  
+
+    <body>
+        
+
+        <h4>Menú día Lunes</h4>
+
+        <p>- Arroz con pollo al jugo</p>
+
+        <form>
+            <table border="1">
+                <tr>
+                    <td><p>Acompañamiento</p></td>
+                    <td><input type="radio" name="conPapas" value="conPapas">Papas Fritas<br/>
+                    <input type="radio" name="conArrollado" value="conArrollado">Arrollado Primavera</td>
+                </tr>
+                <tr>
+                    <td><p>Jugo Natural</p></td>
+                    <td><input type="checkbox" name="pina" value="pina">Piña <br/>
+                    <input type="checkbox" name="frutilla" value="frutilla">Frutilla <br/>
+                    <input type="checkbox" name="melon" value="melon">Melón</td> 
+                </tr>                
+                <tr>  
+                    <td><label for="diaPedido">Fecha Pedido: </label></td>
+                    <td><input type="date" id="diaPedido" name="diaPedido" /></td>
+                </tr>
+                <tr>
+                    <td><label for="horaPedido">Hora Deseada: </label></td>
+                    <td><input type="time" id="horaPedido" name="horaPedido" /></td>
+                </tr>
+                <tr><td></td>
+                    <td><input type="button" value="Confirmar Pedido" name="pedconfirmado"></td>
+                </tr>    
+            </table>
+        </form>
+        
+        <br><br>
+        <h4>Menus de la semana c:</h4>
+        <table border="1">
+            <tr>
+                <td>Día Lunes</td>
+                <td>Día Martes</td>
+                <td>Día Miercoles</td>
+                <td>Día Jueves</td>
+                <td>Día Viernes</td>
+            </tr>
+            <tr>
+                <td>Pure con pollo</td>
+                <td>Pure con Arroz</td>
+                <td>Porotos con Riendas</td>
+            </tr> 
+        </table>
+    </body>
+
+</html>
